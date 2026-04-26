@@ -1,5 +1,9 @@
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
   return (
+    <>
+      <Navbar />
     <main className="min-h-screen px-8 py-16">
       <section className="mx-auto max-w-4xl">
         <p className="text-sm uppercase tracking-widest text-gray-500">
@@ -11,8 +15,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 text-xl text-gray-600">
-          I build full-stack, mobile, AI, and systems projects using React,
-          TypeScript, Python, C++, and modern development tools.
+          I build projects using modern development tools.
         </p>
 
         <div className="mt-8 flex gap-4">
@@ -30,6 +33,15 @@ export default function Home() {
             Contact Me
           </a>
         </div>
+      </section>
+
+      <section  id="about" className="mx-auto mt-24 max-w-4xl">
+          <h2 className="text-3xl font-bold">About Me</h2>
+        <p className="mt-2 text-gray-600">
+          I have a drive for learning and want to develop solutions that solve
+            real world problems using creativity, teamwork, and dedication. When I am
+            not at the computer, I am listening to music, building Legos, and staying in shape.
+        </p>
       </section>
 
       <section id="projects" className="mx-auto mt-24 max-w-4xl">
@@ -59,6 +71,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </main>
+      </main>
+      </>
   );
 }
