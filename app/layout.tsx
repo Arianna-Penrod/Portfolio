@@ -18,6 +18,15 @@ export const metadata: Metadata = {
   description: "Arianna Penrod's computer science portfolio",
 };
 
+const themeScript = `
+  const savedTheme = localStorage.getItem("theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const theme = savedTheme || (prefersDark ? "dark" : "light");
+
+  document.documentElement.classList.remove("dark", "light");
+  document.documentElement.classList.add(theme);
+`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,8 +35,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body className="min-h-full flex flex-col">
         {children}
         <Analytics />
