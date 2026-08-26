@@ -183,6 +183,29 @@ export default function Home() {
             </div> 
           </div>
         </section>
+
+
+        {/** Contact section */}
+        <section id="contact" className="mx-auto mt-24 max-w-4xl scroll-mt-24">
+          <h2 className="text-3xl font-bold">Contact</h2>
+
+          <div className="mt-8 grid gap-6">
+            <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
+              <h3 className="text-xl font-semibold">Email</h3>
+              <p className="mt-2 text-sm text-accent-dark">
+                example@email.com
+              </p>
+              <h3 className=" mt-4 text-xl font-semibold">Phone</h3>
+             <p className="mt-2 text-sm text-accent-dark">
+                (000) 000-0000
+              </p>
+              <h3 className=" mt-4 text-xl font-semibold">GitHub</h3>
+             <p className="mt-2 text-sm text-accent-dark transition hover:bg-primary-dark rounded-lg">
+                <a href="https://github.com/Arianna-Penrod">https://github.com/Arianna-Penrod</a>
+              </p>
+            </div> 
+          </div>
+        </section>
         
       </main>
       </>
