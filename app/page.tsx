@@ -130,7 +130,7 @@ export default function Home() {
           <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
             <h3 className="text-xl font-semibold">Inventory Tracking Solution</h3>
             <p className="mt-2 text-muted">
-                Worked closely in a team and with a client to implement a inventory tracking service that integrates
+                I am currently working closely in a team and with a client to implement a inventory tracking service that integrates
                 with delivery and enterprise resource planning systems.
             </p>
             <p className="mt-4 text-sm text-accent-dark">
@@ -181,6 +181,21 @@ export default function Home() {
                 Nov 2022 - Nov 2024
               </p>
             </div> 
+
+            <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
+              <h3 className="text-xl font-semibold">Google Cybersecurity Certificate</h3>
+              <p className="mt-2 text-muted">
+                Learned basic cybersecurity concepts, terminology, and software. Completed 
+                hands-on labs to learn SQL, Linux, Wireshark, and Python where I applied those skills to realistic
+                cybersecurity scenarios. I also practiced security auditing, SIEM viewing, and incident reporting.
+              </p>
+              <p className="mt-4 text-sm text-accent-dark">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/5THZ282CAZ1C">
+                  https://www.coursera.org/account/accomplishments/certificate/5THZ282CAZ1C
+                </a>
+              </p>
+            </div> 
+
           </div>
         </section>
 
@@ -193,15 +208,19 @@ export default function Home() {
             <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
               <h3 className="text-xl font-semibold">Email</h3>
               <p className="mt-2 text-sm text-accent-dark">
-                example@email.com
+                On resume
               </p>
               <h3 className=" mt-4 text-xl font-semibold">Phone</h3>
              <p className="mt-2 text-sm text-accent-dark">
-                (000) 000-0000
+                On resume
               </p>
               <h3 className=" mt-4 text-xl font-semibold">GitHub</h3>
              <p className="mt-2 text-sm text-accent-dark transition hover:bg-primary-dark rounded-lg">
                 <a href="https://github.com/Arianna-Penrod">https://github.com/Arianna-Penrod</a>
+              </p>
+              <h3 className=" mt-4 text-xl font-semibold">LinkedIn</h3>
+             <p className="mt-2 text-sm text-accent-dark transition hover:bg-primary-dark rounded-lg">
+                <a href="https://github.com/Arianna-Penrod">https://www.linkedin.com/in/arianna-penrod-9b2926396/</a>
               </p>
             </div> 
           </div>

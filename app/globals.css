@@ -1,26 +1,6 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
-:root,
-:root.light {
-    --background: #EEF2FF;
-    --foreground: #1E1B4B;
-
-    --card: #FFFFFF;
-    --card-hover: #E0E7FF;
-
-    --primary: #4F46E5;
-    --primary-dark: #3730A3;
-
-    --accent: #0891B2;
-    --accent-dark: #0E7490;
-
-    --muted: #4338CA;
-    --border: #C7D2FE;
-}
-
-:root.dark {
+:root {
   --background: #131332;
   --foreground: #dbd6ff;
 
@@ -41,14 +21,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: "Minecraft";
-  src: url("/fonts/Minecraft.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -67,7 +39,7 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Minecraft", monospace;
+  font-family: var(--font-geist-mono), monospace;
   letter-spacing: 0.04em;
   font-size: .95em;
   word-spacing: .3em;
