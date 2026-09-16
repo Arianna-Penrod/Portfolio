@@ -41,8 +41,8 @@ export default function Home() {
           <h2 className="text-3xl font-bold">About Me</h2>
         <p className="mt-2 text-muted">
           I have a drive for learning and want to develop solutions that solve
-            real world problems using creativity, teamwork, and dedication. When I am
-            not at my computer, I am listening to music, building Legos, and exploring the outdoors.
+            real world problems using creativity, teamwork, and software engineering. When I am
+            not at my computer, I am listening to music, playing video games, and exploring the outdoors.
         </p>
       </section>
 
@@ -58,19 +58,19 @@ export default function Home() {
             </div>
 
             <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
-              <h3 className="text-xl font-semibold">Algorithm Analysis and Design</h3>
+              <h3 className="text-xl font-semibold">Git and GitHub</h3>
             </div>
 
             <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
-              <h3 className="text-xl font-semibold">Web Development</h3>
+              <h3 className="text-xl font-semibold">VS Code</h3>
             </div>
 
             <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
-              <h3 className="text-xl font-semibold">Linux OS, GitHub</h3>
+              <h3 className="text-xl font-semibold">Linux OS</h3>
             </div>
 
             <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
-              <h3 className="text-xl font-semibold">Leadership, Teamwork, Communication</h3>
+              <h3 className="text-xl font-semibold">Teamwork and Communication</h3>
             </div>
 
             <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
@@ -78,7 +78,7 @@ export default function Home() {
             </div>
 
             <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
-              <h3 className="text-xl font-semibold">Scrum/Agile Development Workflows</h3>
+              <h3 className="text-xl font-semibold">Scrum and Agile Methods</h3>
             </div>
 
             <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
@@ -103,7 +103,19 @@ export default function Home() {
             <p className="mt-4 text-sm text-accent-dark">
               Expo · React Native · TypeScript · GitHub · DevSecOps · Agile/Scrum Methods
             </p>
-          </div>
+            </div>
+            
+          <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
+            <h3 className="text-xl font-semibold">Uplift Hacklahoma Project</h3>
+            <p className="mt-2 text-muted">
+                I worked in a team of 4 to develop a website in 24 hours that was designed to prepare computer science
+                students for technical interviews.
+            </p>
+            <p className="mt-4 text-sm text-accent-dark">
+              SQL · Networking · Product Development
+              </p>
+              {/* Add is GH links */}
+          </div> 
 
           <div className="rounded-xl border border-border bg-card p-6 transition hover:bg-card-hover">
             <h3 className="text-xl font-semibold">Pacman AI Projects</h3>
