@@ -41,8 +41,8 @@ export default function Home() {
           <h2 className="text-3xl font-bold">About Me</h2>
         <p className="mt-2 text-muted">
           I have a drive for learning and want to develop solutions that solve
-            real world problems using creativity, teamwork, and software engineering. When I am
-            not at my computer, I am listening to music, playing video games, and exploring the outdoors.
+            real world problems using creativity, teamwork, and software engineering. When I
+            have free time, I enjoy listening to music, playing video games, and exploring the outdoors.
         </p>
       </section>
 
